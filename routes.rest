@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers
+
+###
+
+
+GET http://localhost:3000/subscribers/62939e68ca10ca0350ad783E
+
+ 
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+ {
+     "name": "Amazing Person",
+     "subscribedToChannel": "Mernsplaining"
+ }
+
+###
+DELETE http://localhost:3000/subscribers/6294fde995f65f6e771b7df7
+
+
+
+###
+PATCH http://localhost:3000/subscribers/62939b6823fee22af7d7b240
+Content-Type: application/json
+
+ {
+     "name": "NEW NAME",
+     
+ }
